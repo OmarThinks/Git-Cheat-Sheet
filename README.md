@@ -94,6 +94,43 @@ git status
 
 
 
+### C-3) `diff`:
+
+
+
+Show changes.
+
+
+
+
+<table>
+
+
+
+<tr>
+<th>
+
+`git diff`
+
+</th>
+<td>
+Getting differnence between working and current HEAD
+</td>
+</tr>
+
+
+
+
+<tr>
+<th>
+
+`git diff <commit_SHA>`
+
+</th>
+<td>
+Getting differnence between working and the commit
+</td>
+</tr>
 
 
 
@@ -101,6 +138,50 @@ git status
 
 
 
+
+
+
+<tr>
+<th>
+
+`git diff <commit_SHA> -- <file_path>`
+
+</th>
+<td>
+Getting differnence between working and the commit for a specific file
+</td>
+</tr>
+
+
+
+
+
+
+<tr>
+<th>
+
+`git diff topic master`
+
+`git diff topic..master`
+
+`git diff topic...master`
+
+
+</th>
+<td>
+Comparing Branches
+</td>
+</tr>
+
+
+
+
+
+
+
+
+
+</table>
 
 
 
