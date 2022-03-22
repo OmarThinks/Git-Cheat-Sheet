@@ -4,16 +4,40 @@
 
 
 
-# A) Creating Projects:
+
+# A) Definitions:
+
+1. **Working Tree**: Current files
+2. **Staged**: Files related to be comitted
 
 
-## A-1) `clone`:
+
+
+# B) Creating Projects:
+
+
+### B-1) `clone`:
 To clone a create a local copy from a remote repo.
 
-## A-2) `init`:
+<b>
+
+```
+git clone <remote_location>
+```
+</b>
+
+
+### B-2) `init`:
 To create a new Repo.
 
 
+<b>
+
+
+```
+git init
+```
+</b>
 
 
 
@@ -21,24 +45,57 @@ To create a new Repo.
 
 
 
-# B) Basic Snapshotting:
+# C) Basic Snapshotting:
 
 
-# B-1) `add`:
+### C-1) `add`:
 
 prepare the content staged for the next commit.
 
 
 <table>
 <tr>
-<th>git add .</th>
+<th>
+
+`git add .`
+
+</th>
 <td>make all files staged</td>
 </tr>
 <tr>
-<th>git add &lt;file_location&gt;</th>
+<th>
+
+`git add <file_location>`
+
+</th>
 <td>make file staged</td>
 </tr>
 </table>
+
+
+
+
+
+
+
+### C-2) `status`:
+
+Display the differnce between working tree and the current HEAD commit, files that are not tracked.
+
+
+<b>
+
+```
+git status
+```
+</b>
+
+
+
+
+
+
+
 
 
 
