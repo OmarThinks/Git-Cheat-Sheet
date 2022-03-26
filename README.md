@@ -412,11 +412,62 @@ Create a new branch
 Delete a branch
 </td>
 </tr>
+<tr>
+<th>
+
+`git branch <branch_name> <commit_SHA>`
+</th>
+<td>
+Create a branch from a commit
+</td>
+</tr>
+
+
+<tr>
+<th>
+
+`git branch -m (--move) <old_branch_name> <new_branch_name>`
+</th>
+<td>
+Rename a branch
+</td>
+</tr>
+
+<tr>
+<th>
+
+`git branch --copy <old_branch_name> <new_branch_name>`
+</th>
+<td>
+Copy a branch
+</td>
+
+
 </table>
 
 
 
 
+
+
+### D-2) `checkout`:
+
+Change the current branch.
+
+
+
+
+<table>
+<tr>
+<th>
+
+`git checkout <branch_name>`
+</th>
+<td>
+Change to a branch
+</td>
+</tr>
+</table>
 
 
 
