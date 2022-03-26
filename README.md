@@ -191,7 +191,7 @@ Commit all staged files with a message
 <tr>
 <th>
 
-`git commit -a -m "message"`
+`git commit -a (--all) -m "message"`
 
 </th>
 <td>
@@ -260,6 +260,79 @@ Remove file from staging area
 <td>
 Restores file from a specific commit
 </td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+### C-6) `reset`:
+
+Resets the working tree to the specified commit, and removes the following commits.  
+
+It has modes:
+
+
+
+
+
+<table>
+
+
+<tr>
+<th>Mode</th>
+<th>Working Tree</th>
+</tr>
+
+<tr>
+<th>--soft</th>
+<td>Staged</td>
+</tr>
+
+<tr>
+<th>--hard</th>
+<td>restored</td>
+</tr>
+
+
+<tr>
+<th>--mixed (default)</th>
+<td>Intact</td>
+</tr>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+<table>
+
+<tr>
+<th>
+`git reset <commit_SHA>`
+</th>
+</tr>
+
+
+
+<tr>
+<th>
+`git reset <commit_SHA> [--mode=<mode>]`
+</th>
 </tr>
 </table>
 
