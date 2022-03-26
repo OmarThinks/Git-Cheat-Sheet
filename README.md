@@ -323,6 +323,7 @@ It has modes:
 
 <tr>
 <th>
+
 `git reset <commit_SHA>`
 </th>
 </tr>
@@ -331,6 +332,7 @@ It has modes:
 
 <tr>
 <th>
+
 `git reset <commit_SHA> [--mode]`
 </th>
 </tr>
@@ -354,6 +356,69 @@ Remove files from the working tree, and stage changes.
 
 
 **`git rm <file_path>`**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# D) Branching and Merging:
+
+
+### D-1) `branch`:
+List, create or delete branches.
+
+
+
+
+<table>
+<tr>
+<th>
+`git branch`
+</th>
+<td>
+List all branches
+</td>
+</tr>
+<tr>
+<th>
+
+`git branch <branch_name>`
+
+</th>
+<td>
+Create a new branch
+</td>
+</tr>
+<tr>
+<th>
+
+`git branch -d (--delete) <branch_name>`
+
+</th>
+<td>
+Delete a branch
+</td>
+</tr>
+</table>
+
+
+
+
+
+
 
 
 
