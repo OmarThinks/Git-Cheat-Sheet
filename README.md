@@ -104,9 +104,6 @@ Show changes.
 
 
 <table>
-
-
-
 <tr>
 <th>
 
@@ -117,10 +114,6 @@ Show changes.
 Getting differnence between working and current HEAD
 </td>
 </tr>
-
-
-
-
 <tr>
 <th>
 
@@ -131,16 +124,6 @@ Getting differnence between working and current HEAD
 Getting differnence between working and the commit
 </td>
 </tr>
-
-
-
-
-
-
-
-
-
-
 <tr>
 <th>
 
@@ -151,12 +134,6 @@ Getting differnence between working and the commit
 Getting differnence between working and the commit for a specific file
 </td>
 </tr>
-
-
-
-
-
-
 <tr>
 <th>
 
@@ -172,16 +149,83 @@ Getting differnence between working and the commit for a specific file
 Comparing Branches
 </td>
 </tr>
-
-
-
-
-
-
-
-
-
 </table>
+
+
+
+
+
+
+
+### C-4) `commit`:
+
+
+
+
+Commit changes to git.
+
+
+
+
+<table>
+<tr>
+<th>
+
+`git commit`
+
+</th>
+<td>
+Commit all staged files
+</td>
+</tr>
+<tr>
+<th>
+
+`git commit -m "message"`
+
+</th>
+<td>
+Commit all staged files with a message
+</td>
+</tr>
+<tr>
+<th>
+
+`git commit -a -m "message"`
+
+</th>
+<td>
+Stage all files and commit them with a message
+</td>
+</tr>
+<tr>
+<th>
+
+`git commit --file <file_path>`
+
+
+
+</th>
+<td>
+Commit all staged files with a message from a file
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
