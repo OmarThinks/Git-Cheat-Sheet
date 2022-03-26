@@ -221,6 +221,49 @@ Commit all staged files with a message from a file
 
 
 
+### C-5) `restore`:
+
+Restores specified files of the working tree from the last commit.
+
+
+
+
+
+
+<table>
+<tr>
+<th>
+
+`git restore <file_path>`
+
+</th>
+<td>
+Restore file from last commit
+</td>
+</tr>
+<tr>
+<th>
+
+`git restore --staged <file_path>`
+
+</th>
+<td>
+Remove file from staging area
+</td>
+</tr>
+<tr>
+<th>
+
+`git restore --source <source SHA> <file_path>`
+
+</th>
+<td>
+Restores file from a specific commit
+</td>
+</tr>
+</table>
+
+
 
 
 
