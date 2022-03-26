@@ -331,7 +331,7 @@ It has modes:
 
 <tr>
 <th>
-`git reset <commit_SHA> [--mode=<mode>]`
+`git reset <commit_SHA> [--<mode>]`
 </th>
 </tr>
 </table>
