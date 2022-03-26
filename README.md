@@ -331,7 +331,7 @@ It has modes:
 
 <tr>
 <th>
-`git reset <commit_SHA> [--<mode>]`
+`git reset <commit_SHA> [--mode]`
 </th>
 </tr>
 </table>
@@ -340,6 +340,20 @@ It has modes:
 
 
 
+
+
+
+
+
+
+
+
+### C-6) `rm`:
+
+Remove files from the working tree, and stage changes.
+
+
+**`git rm <file_path>`**
 
 
 
