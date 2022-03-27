@@ -472,6 +472,71 @@ Change to a branch
 
 
 
+### D-3) `merge`:
+
+
+To merge two branches.
+
+
+
+
+
+
+<table>
+<tr>
+<th>
+`git merge <branch_name>`
+</th>
+<td>
+Merge a branch to the current branch
+</td>
+</tr>
+<tr>
+<th>
+`git merge --abort`
+</th>
+<td>
+Abort a merge and try to construct a pre-merge state
+</td>
+</tr>
+<tr>
+<th>
+`git merge --continue`
+</th>
+<td>
+Continue a merge if there has been a conflict
+</td>
+</tr>
+<tr>
+<th>
+
+`git merge <branch_name> --no-ff`
+</th>
+<td>
+Merge without fast-forward
+</td>
+</tr>
+<tr>
+<th>
+
+`git merge --strategy=<option> <branch_name>`
+</th>
+<td>
+Merge with a custom strategy
+</td>
+</tr>
+<table>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
