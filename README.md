@@ -681,6 +681,19 @@ To download remote branches.
 
 
 
+### E-2) `pull`:
+
+
+To merge changes from a remote branch.
+
+
+
+
+### E-3) `push`:
+To upload changes to a remote branch.
+
+
+
 
 
 
