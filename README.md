@@ -530,7 +530,75 @@ Merge with a custom strategy
 
 
 
+### D-4) `log`:
 
+Show the commit history.
+
+
+
+<table>
+<tr>
+<th>
+`git log`
+</th>
+<td>
+Show the commit history
+</td>
+</tr>
+<tr>
+<th>
+`git log --oneline`
+</th>
+<td>
+Show the commit history in a single line
+</td>
+</tr>
+<tr>
+<th>
+`git log --graph`
+</th>
+<td>
+Show the commit history in a graph
+</td>
+</tr>
+<tr>
+<th>
+`git log --graph --oneline`
+</th>
+<td>
+Show the commit history in a graph and a single line
+</td>
+</tr>
+<tr>
+<th>
+
+`git log --pretty=<format>`
+</th>
+<td>
+Show the commit history in a custom format
+</td>
+
+
+
+<tr>
+<th>
+
+`git log <file_directory>`
+</th>
+<td>
+Show the commit history of a file
+</td>
+</tr>
+<tr>
+<th>
+
+`git log <branch_name>`
+</th>
+<td>
+Show the commit history of a branch
+</td>
+</tr>
+</table>
 
 
 
