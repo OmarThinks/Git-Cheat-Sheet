@@ -601,6 +601,71 @@ Show the commit history of a branch
 </table>
 
 
+### D-5) `tag`:
+
+To create and list tags.
+
+
+
+
+<table>
+<tr>
+<th>
+`git tag`
+</th>
+<td>
+List all tags
+</td>
+</tr>
+<tr>
+<th>
+
+`git tag <tag_name>`
+</th>
+<td>
+Create a new tag
+</td>
+</tr>
+<tr>
+<th>
+
+`git tag -d <tag_name>`
+</th>
+<td>
+Delete a tag
+</td>
+</tr>
+<tr>
+<th>
+
+`git tag -a <tag_name> -m <message>`
+</th>
+<td>
+Create a new annotated tag
+</td>
+</tr>
+<tr>
+<th>
+
+`git tag -a <tag_name> -m <message> <commit_SHA>`
+</th>
+<td>
+Create a new annotated tag from a commit
+</td>
+</tr>
+<tr>
+<th>
+
+`git tag -a <tag_name> -f <file_path>`
+</th>
+<td>
+Create a new annotated tag from a file
+</td>
+</tr>
+</table>
+
+
+
 
 
 
