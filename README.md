@@ -696,5 +696,23 @@ To upload changes to a remote branch.
 
 
 
+# F) Patching:
+
+
+### F-1) `revert`:
+
+To revert changes in a new commit.
+
+
+
+```bash
+git revert <commit_SHA>
+```
+
+This will create a new commit with the changes from the old commit, and ask you to input a commit message.
+
+
+
+
 
 
