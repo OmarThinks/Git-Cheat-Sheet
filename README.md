@@ -713,6 +713,22 @@ This will create a new commit with the changes from the old commit, and ask you 
 
 
 
+### F-2) `rebase`:
+
+To apply changes from a remote branch, and mix the branches into one branch with the same line.
+
+
+
+
+
+```bash
+git rebase <branch_name>
+```
+
+
+
+
+
 
 
 
