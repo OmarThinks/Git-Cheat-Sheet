@@ -386,6 +386,7 @@ List, create or delete branches.
 <table>
 <tr>
 <th>
+
 `git branch`
 </th>
 <td>
@@ -485,6 +486,7 @@ To merge two branches.
 <table>
 <tr>
 <th>
+
 `git merge <branch_name>`
 </th>
 <td>
@@ -493,6 +495,7 @@ Merge a branch to the current branch
 </tr>
 <tr>
 <th>
+
 `git merge --abort`
 </th>
 <td>
@@ -501,6 +504,7 @@ Abort a merge and try to construct a pre-merge state
 </tr>
 <tr>
 <th>
+
 `git merge --continue`
 </th>
 <td>
@@ -539,6 +543,7 @@ Show the commit history.
 <table>
 <tr>
 <th>
+
 `git log`
 </th>
 <td>
@@ -547,6 +552,7 @@ Show the commit history
 </tr>
 <tr>
 <th>
+
 `git log --oneline`
 </th>
 <td>
@@ -555,6 +561,7 @@ Show the commit history in a single line
 </tr>
 <tr>
 <th>
+
 `git log --graph`
 </th>
 <td>
@@ -563,6 +570,7 @@ Show the commit history in a graph
 </tr>
 <tr>
 <th>
+
 `git log --graph --oneline`
 </th>
 <td>
@@ -611,6 +619,7 @@ To create and list tags.
 <table>
 <tr>
 <th>
+
 `git tag`
 </th>
 <td>
@@ -728,6 +737,95 @@ git rebase <branch_name>
 
 
 
+
+
+# Questions:
+
+## Explain These Commands:
+
+<b>
+
+
+```
+B)
+
+git clone <repository_URL>
+git init
+
+
+C)
+
+git add .
+git add <file_location>
+git status
+
+git diff
+git diff <commit_SHA> -- <file_path>
+git diff topic master
+git diff topic..master
+git diff topic...master
+
+git commit
+git commit -m "message"
+git commit -a (--all) -m "message"
+git commit --file <file_path>
+
+
+git restore <file_path>
+git restore --staged <file_path>
+git restore --source <source SHA> <file_path>
+
+git reset
+
+git rm <file_path>
+
+
+D)
+
+git branch <branch_name>
+git branch -d (--delete) <branch_name>
+git branch <branch_name> <commit_SHA>
+git branch -m (--move) <old_branch_name> <new_branch_name>
+git branch --copy <old_branch_name> <new_branch_name>
+
+git checkout <branch_name>
+
+git merge <branch_name>
+git merge --abort
+git merge --continue
+git merge <branch_name> --no-ff
+git merge --strategy=<option> <branch_name>
+
+git log
+git log --oneline
+git log --graph
+git log --graph --oneline
+git log --pretty=<format>
+git log <file_directory>
+git log <branch_name>
+
+git tag
+git tag <tag_name>
+git tag -d <tag_name>
+git tag -a <tag_name> -m <message>
+git tag -a <tag_name> -m <message> <commit_SHA>
+git tag -a <tag_name> -f <file_path>
+
+
+E)
+
+git fetch
+
+git pull
+
+git push
+
+git revert <commit_SHA>
+
+git rebase <branch_name>
+```
+
+</b>
 
 
 
