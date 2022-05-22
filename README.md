@@ -952,7 +952,7 @@ git rebase <branch_name>
 
 - `reset`, `restore`, `revert`
 - `rebase`, `merge`
-
+- `pull`, `push`, `fetch`
 </b>
 
 
