@@ -739,6 +739,120 @@ git rebase <branch_name>
 
 
 
+
+# Graphs:
+
+## 1) `git merge`:
+
+
+<b>
+
+
+```
+git checkout f
+git merge m
+git checkout m
+git merge f
+git log --oneline --graph
+```
+
+</b>
+
+
+```
+*   157b734 (HEAD -> m, f) Merge branch 'm' into f
+|\
+| * d37ff03 m6
+| * cfbd014 m5
+| * 7aca9e4 m4
+* | 528aeb9 f4
+* | a8c55fa f3
+* | adcfecf f2
+* | fe68070 f1
+|/
+* 35670a9 m3
+* 0957f14 m2
+* 0e44225 m1
+```
+
+
+
+
+
+## 2) `git merge --squash`:
+
+
+
+<b>
+
+```
+git checkout f
+git merge m --squash
+git commit -m "merged"
+git checkout m
+git merge f
+git commit -m "merged"
+git log --oneline --graph
+```
+
+</b>
+
+
+```
+* c555842 (HEAD -> m) merged
+* d37ff03 m6
+* cfbd014 m5
+* 7aca9e4 m4
+* 35670a9 m3
+* 0957f14 m2
+* 0e44225 m1
+```
+
+
+
+
+
+## 3) `git rebase`:
+
+
+
+<b>
+
+```
+git checkout f
+git rebase m
+git checkout m
+git rebase f
+git log --oneline --graph
+```
+
+</b>
+
+
+```
+* 7c00c56 (HEAD -> m, f) f4
+* e578bd7 f3
+* db42864 f2
+* 003f332 f1
+* d37ff03 m6
+* cfbd014 m5
+* 7aca9e4 m4
+* 35670a9 m3
+* 0957f14 m2
+* 0e44225 m1
+```
+
+
+
+
+
+
+
+
+
+
+
+
 # Questions:
 
 ### 1) Explain These Commands:
@@ -840,6 +954,9 @@ git rebase <branch_name>
 - `rebase`, `merge`
 
 </b>
+
+
+
 
 
 
