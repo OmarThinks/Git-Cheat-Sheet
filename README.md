@@ -609,6 +609,137 @@ Show the commit history of a branch
 </table>
 
 
+
+
+
+
+
+
+### D-5) `stash`:
+
+
+Stash (Hide) the changes in a dirty working directory away
+
+
+
+<table>
+
+<tr>
+<th>
+
+`git stash`
+</th>
+<td>
+Stash the changes in a dirty working directory away, the stash will put in a queue of stashes.<br>
+Restores the changes to the last commit.
+</td>
+</tr>
+
+<tr>
+<th>
+
+`git stash -m "<message>"`
+</th>
+<td>
+Stash with a message
+</td>
+</tr>
+
+<tr>
+<th>
+
+`git stash list`
+</th>
+<td>
+List all stashed working dirctories
+</td>
+</tr>
+
+<tr>
+<th>
+
+`git stash drop <stash_id>`
+</th>
+<td>
+Drop a stash with a specific ID
+</tr>
+
+
+
+<tr>
+<th>
+
+`git stash pop`
+</th>
+<td>
+Pop the latest stashed shash out of the queue to the current working directory, the popped stash will be removed from the stash list
+</td>
+</tr>
+
+
+
+
+<tr>
+<th>
+
+`git stash pop <stash_id>`
+</th>
+<td>
+Pop with a specific ID to the current working directory, th popped stash will be removed from the stash list
+</td>
+</tr>
+
+
+
+<tr>
+<th>
+
+`git stash apply <stash_id>`
+</th>
+<td>
+Like `git stash pop` but without removing the stash from the stash list
+</td>
+</tr>
+
+<tr>
+<th>
+
+`git stash clear`
+</th>
+<td>
+
+**Clears all Stash (Can not be recovered)**
+
+</td>
+</tr>
+
+<tr>
+<th>
+
+`git stash drop`
+</th>
+<td>
+Drops the latest stash from the stash queue
+</td>
+</tr>
+
+<tr>
+<th>
+
+`git stash drop <stash_id>`
+</th>
+<td>
+Drops a specific stash from the stash queue
+</td>
+</tr>
+
+</table>
+
+
+
+
+
+
 ### D-5) `tag`:
 
 To create and list tags.
