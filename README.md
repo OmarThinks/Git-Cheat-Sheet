@@ -741,7 +741,7 @@ git rebase <branch_name>
 
 # Questions:
 
-## Explain These Commands:
+### 1) Explain These Commands:
 
 <b>
 
@@ -775,13 +775,14 @@ git restore <file_path>
 git restore --staged <file_path>
 git restore --source <source SHA> <file_path>
 
-git reset
+git reset <commit_SHA>
 
 git rm <file_path>
 
 
 D)
 
+git branch
 git branch <branch_name>
 git branch -d (--delete) <branch_name>
 git branch <branch_name> <commit_SHA>
@@ -827,6 +828,18 @@ git rebase <branch_name>
 
 </b>
 
+
+
+
+### 2) What is the differenece between?
+
+
+<b>
+
+- `reset`, `restore`, `revert`
+- `rebase`, `merge`
+
+</b>
 
 
 
